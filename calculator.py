@@ -46,8 +46,6 @@ def build_rpn(expression):
 def calc(left_operand, right_operand, operation):
     left_operand = float(left_operand)
     right_operand = float(right_operand)
-    if operation == '^':
-        print("br")
     if operation == '+':
         return left_operand + right_operand
     elif operation == '-':
